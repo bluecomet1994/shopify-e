@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "maintheme";
+    src: url("../resources/fonts/Mohave-VariableFont_wght.ttf")
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    /* don't use '0px' or any other unit, if you set the value to zero */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-family: "maintheme";
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+.darkBlack{
+    background-color: rgb(17, 17, 17);
+}
+.black{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.navbardiv2 {
+
+    background-color: black;
+}
+
+.maindiv {
+    position: relative;
+}
+
+.sitelogo {
+    width: 100px;
+    position: absolute;
+    top: 0%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+
+.HRTAG {
+    border: 0.03rem solid rgb(255, 255, 255);
+}
+
+
+
+.userNameField {
+    color: black;
+}
+
+.userNameField:focus {
+    outline: none;
+}
+
+.userDetailsMainDiv {
+    background-color: rgb(17, 17, 17);
+}
+
+.updateRelatedButtons {
+    background-color: rgb(84, 84, 84);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+
+   padding: 10PX;
+    transition: background-color 0.5s ease;
+}
+
+.updateRelatedButtons:hover {
+    background-color: rgb(116, 116, 116);
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+}

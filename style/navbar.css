@@ -1,0 +1,81 @@
+.navbarImage{
+  height: 65px;
+  object-fit: cover;
+}
+.stopScrolling{
+  overflow: hidden;
+}
+.navbarLinkDivs{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navbarLinkDivs a{
+  font-size: 1.2rem;
+  /* width: 400px;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: rgb(255, 0, 0);
+  text-align: center; */
+ 
+}
+.cartNCustomerDiv img{
+   width: 30px;
+}
+.navbarMainDivHolder{
+  background-color: rgb(0, 0, 0);
+}
+.colorBlack{
+  background-color: rgb(0, 0, 0);
+}
+.cartQtyRowCount{
+  background-color: red;
+  position: absolute;
+  border-radius:50% ;
+
+}
+.navLinkTexts{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.navLinkTexts:hover{
+  border-bottom: 2px white solid;
+  transition: border-bottom 5s linear;
+}
+.signInSignUpPage{
+  position: absolute;
+  height:100vh;
+
+}
+.navBarVertical{
+  position: absolute;
+  height:100vh;
+}
+.inputFieldsLogin{
+  color: black;
+}
+.logInButton{
+  background-color: black;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  transition: background-color 0.2s linear,color 0.2s linear,font-weight 0.2s linear;
+
+}
+.logInButton:hover{
+  background-color: rgb(195, 3, 3);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+ 
+}
+.userOptions{
+  background-color: rgb(0, 0, 0);
+}
+
+.userOptionsUL li a{
+  color: rgb(247, 247, 247);
+}
+.userOptionsUL li a:hover{
+   color: gold;
+}

@@ -1,0 +1,173 @@
+{
+    "paths": [
+        {
+            "path_name": "site_header_php",
+            "actual_path": "/sampleSelling-master/site_header/header.php"
+        },
+        {
+            "path_name": "sample_queries",
+            "actual_path": "/sampleSelling-master/product_view/query/Sample_query_functions.php"
+        },
+        {
+            "path_name": "site_header_script",
+            "actual_path": "/sampleSelling-master/site_header/header.js"
+        },
+        {
+            "path_name": "page_buttons",
+            "actual_path": "/sampleSelling-master/product_view/utils/page_buttons.php"
+        },
+        {
+            "path_name": "db",
+            "actual_path": "/sampleSelling-master/db_connection/db.php"
+        },
+        {
+            "path_name": "file_handler",
+            "actual_path": "/sampleSelling-master/util/file_handler.php"
+        },
+        {
+            "path_name": "audio_sample_display_page",
+            "actual_path": "/sampleSelling-master/product_view/audio_samples/sample_display.php"
+        },
+        {
+            "path_name": "audio_sample_display_page_shortend",
+            "actual_path": "/sampleSelling-master/sample_audio"
+        },
+        {
+            "path_name": "audio_sample_display_page_script",
+            "actual_path": "/sampleSelling-master/product_view/audio_samples/script.js"
+        },
+        {
+            "path_name": "midi_sample_display_page",
+            "actual_path": "/sampleSelling-master/product_view/midi_files/sample_display.php"
+        },
+        {
+            "path_name": "midi_sample_display_page_shortend",
+            "actual_path": "/sampleSelling-master/sample_midi"
+        },
+        {
+            "path_name": "midi_sample_display_page_script",
+            "actual_path": "/sampleSelling-master/product_view/midi_files/sample_display.js"
+        },
+        {
+            "path_name": "home_page",
+            "actual_path": "/sampleSelling-master/home/index.php"
+        },
+        {
+            "path_name": "home_page_shortend",
+            "actual_path": "/sampleSelling-master/homepage"
+        },
+        {
+            "path_name": "home_page_script",
+            "actual_path": "/sampleSelling-master/home/home.js"
+        },
+        {
+            "path_name": "secondary_navbar_display",
+            "actual_path": "/sampleSelling-master/product_view/utils/secondary_navbar.php"
+        },
+        {
+            "path_name": "server_side",
+            "actual_path": "/sampleSelling-master/util/server_side.js"
+        },
+        {
+            "path_name": "sample_single_view",
+            "actual_path": "/sampleSelling-master/product_single_view/view/view_single_product.php"
+        },
+        {
+            "path_name": "sample_single_view_query",
+            "actual_path": "/sampleSelling-master/product_single_view/query/Sample_query_functions.php"
+        },
+        {
+            "path_name": "customer_cart",
+            "actual_path": "/sampleSelling-master/view_cart/view/cart.php"
+        },
+        {
+            "path_name": "add_to_cart_local_storage",
+            "actual_path": "/sampleSelling-master/product_single_view/process/add_to_cart_local_storage.php"
+        },
+        {
+            "path_name": "go_to_view_cart_local_storage",
+            "actual_path": "/sampleSelling-master/product_single_view/process/go_to_view_cart_local_storage.php"
+        },
+        {
+            "path_name": "add_to_customer_cart_process",
+            "actual_path": "/sampleSelling-master/view_cart/process/addtoCustomerCart.php"
+        },
+        {
+            "path_name": "single_product_view_script",
+            "actual_path": "/sampleSelling-master/product_single_view/view/view_single_product.js"
+        },
+        {
+            "path_name": "cart_script",
+            "actual_path": "/sampleSelling-master/view_cart/view/cart.js"
+        },
+        {
+            "path_name": "signin_signup_pages",
+            "actual_path": "/sampleSelling-master/user/authorization/view/signin_signup.php"
+        },
+        {
+            "path_name": "signin_signup_pages_shortend",
+            "actual_path": "/sampleSelling-master/login"
+        },
+        {
+            "path_name": "logout",
+            "actual_path": "/sampleSelling-master/user/authorization/process/unset_user_email.php"
+        },
+        {
+            "path_name": "user_authorization_script",
+            "actual_path": "/sampleSelling-master/user/authorization/view/script.js"
+        },
+        {
+            "path_name": "user_account_script",
+            "actual_path": "/sampleSelling-master/user/account/view/script.js"
+        },
+        {
+            "path_name": "user_account_shortend",
+            "actual_path": "/sampleSelling-master/useraccount"
+        },
+        {
+            "path_name": "checkout_script",
+            "actual_path": "/sampleSelling-master/checkout/view/script.js"
+        },
+        {
+            "path_name": "vendor_autoload",
+            "actual_path": "/sampleSelling-master/vendor/autoload.php"
+        },
+        {
+            "path_name": "send_email",
+            "actual_path": "/sampleSelling-master/util/send_email/SendEmail.php"
+        },
+        {
+            "path_name": "folder_creation",
+            "actual_path": "/sampleSelling-master/folder_creation/"
+        },
+        {
+            "path_name": "authenticate_download",
+            "actual_path": "/sampleSelling-master/download_samples/view/authenticate_download.php"
+        },
+        {
+            "path_name": "header_url",
+            "actual_path": "/sampleSelling-master/util/HeaderUrl.php"
+        },
+        {
+            "path_name": "download_error_page",
+            "actual_path": "/sampleSelling-master/download_samples/view/download_error_page.php"
+        },
+        {
+            "path_name": "admin_db",
+            "actual_path": "/sampleSelling-master/admin/query/Admin.php"
+        },
+        {
+            "path_name": "admin_login_script",
+            "actual_path": "/sampleSelling-master/admin/view/admin_login_script.js"
+        },
+        {
+            "path_name": "upload_audio_samples",
+            "actual_path": "/sampleSelling-master/upload_samples/view/upload_audio_samples.php"
+        },
+        {
+            "path_name": "upload_midi_samples",
+            "actual_path": "/sampleSelling-master/upload_samples/view/upload_midi_samples.php"
+
+        }
+    ]
+}

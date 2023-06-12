@@ -1,0 +1,495 @@
+@font-face {
+    font-family: "maintheme";
+    src: url('../fonts/Mohave-VariableFont_wght.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    /* don't use '0px' or any other unit, if you set the value to zero */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-family: "maintheme";
+}
+
+body {
+    background-color: rgb(15, 14, 14);
+}
+
+.navbardiv {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background-color: black;
+}
+
+.maindiv {
+    position: relative;
+}
+
+.sitelogo {
+    width: 100px;
+    position: absolute;
+    top: 0%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.navlinks {
+    color: white;
+    font-family: "maintheme";
+    background: none;
+}
+
+.navlinksdiv:hover .navlinks {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.navlinksdiv:hover {
+    border-bottom: white 1px solid;
+}
+.loadingScreenDiv{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+.loadingThing{
+    width: 50px;
+    height: 50px;
+   
+    border-right:  2px rgb(253, 253, 253) solid;
+    border-left:  2px rgb(255, 255, 255) solid;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes example {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+.bag2:hover {
+    transform: scale(2);
+}
+
+@font-face {
+    font-family: 'Vermin';
+    src: url(fonts/Bank\ Sans\ EF\ CY/Bank\ Sans\ EF\ CY\ Regular.otf);
+}
+
+.therelativediv {
+    position: relative;
+}
+
+.searchIconImage {
+    width: 30px;
+}
+
+.sampleheading {
+    font-family: 'maintheme';
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.HRTAG {
+    border: 0.03rem solid rgb(255, 255, 255);
+}
+
+.selectTAG {
+    background-color: black;
+    color: white;
+    border: 0.02rem solid rgb(255, 255, 255);
+}
+
+.thecontentdiv {
+    font-family: 'Vermin';
+}
+
+.beatpackdiv {
+    background-color: rgb(9, 9, 9);
+    border: 2px rgb(0, 0, 0) solid;
+
+}
+
+.beatPACKIMAGE {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+/* 
+.beatPACKIMAGE:hover {} */
+
+
+
+.viewBTN {
+    background-color: rgb(84, 84, 84);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border-radius: 0.035rem;
+    font-size: 1.7rem;
+    transition: background-color 0.5s ease;
+    /* transition: color 0.5s ease;
+    transition: text-shadow 0.5s linear; */
+
+}
+
+.viewBTN:hover {
+    background-color: rgb(23, 21, 21);
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+}
+
+.playButtonHoverEffects {
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+}
+
+.playButtonUnHoverEffects {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.playButtonBackGroundColor {
+    background-color: rgb(30, 26, 26);
+}
+
+.cartBTN:hover {
+    background-color: rgb(255, 255, 0);
+}
+
+.sampleName {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.sampleName:hover {
+    font-weight: bolder;
+}
+
+.appear {
+    animation: rag 2s 1;
+    animation-fill-mode: both;
+}
+
+
+
+.thesamplecontainer1 {
+    position: relative;
+
+}
+
+/* .navbuttons {} */
+
+.audiopreviewdiv {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(28, 28, 28); */
+    /* background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);  */
+    /* background-color: rgb(192,192,192);    */
+    /* background: radial-gradient(circle, rgba(25,25,25,1) 22%, rgba(25,25,25,1) 47%, rgba(11,11,11,1) 100%, rgba(97,97,97,1) 100%); */
+}
+
+.audiopreview {
+    position: absolute;
+    width: 50%;
+}
+
+.audiopreviewImage {
+    position: absolute;
+    width: 50%;
+}
+
+.playcolrols {
+    width: 35%;
+    cursor: pointer;
+}
+
+.homediv1 {
+    position: relative;
+}
+
+.homevideodiv {
+    position: relative;
+    justify-content: center;
+    padding: 0rem;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.493);
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+/* .therollercontentdiv {} */
+
+.cardinfo {
+    font-size: 30px;
+}
+
+.bigintodiv {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.introheader {
+    font-size: 4vw;
+}
+
+.intropara {
+    font-size: 1.4vw;
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.introlist {
+    list-style-type: none;
+}
+
+.liintrolist {
+    font-size: 1.4vw;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.checksamplebutton {
+    border: none;
+    background: rgb(0, 216, 144);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 2vw;
+    padding: 1%;
+    transition: background-color 1s ease-out;
+}
+
+.checksamplebutton:hover {
+    background-color: rgb(0, 51, 117);
+    color: rgb(0, 0, 0);
+}
+
+.sociallinkholdingdiv {
+    position: absolute;
+    bottom: 2%;
+}
+
+.sociallinks {
+    cursor: pointer;
+}
+
+.paymentmethods {
+    width: 100px;
+    max-width: 100%;
+}
+#searchBox {
+    width: 200px;
+    transition: width 0.5s ease-out;
+}
+
+#searchBox:focus {
+    width: 100%;
+}
+@media(max-width:992px) {
+    .introheader {
+        font-size: 5vw;
+    }
+
+    .intropara {
+        font-size: 3vw;
+    }
+
+    .introlist {
+        list-style-type: none;
+    }
+
+    .liintrolist {
+        font-size: 3vw;
+    }
+
+    .checksamplebutton {
+        border: none;
+        background: rgb(0, 216, 144);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 3vw;
+        padding: 1%;
+        transition: background-color 1s ease-out;
+    }
+
+    .paymentmethods {
+        width: 100px;
+    }
+    
+    #searchBox {
+        width: 200px;
+        transition: width 0.5s ease-out;
+    }
+
+    #searchBox:focus {
+        width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+    .mostsold {
+        width: 150px;
+    }
+
+    .introheader {
+        font-size: 6vw;
+    }
+
+    .intropara {
+        font-size: 3vw;
+    }
+
+    .introlist {
+        list-style-type: none;
+    }
+
+    .liintrolist {
+        font-size: 3vw;
+    }
+
+    .checksamplebutton {
+        border: none;
+        background: rgb(0, 216, 144);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 4vw;
+        padding: 1%;
+        transition: background-color 1s ease-out;
+    }
+
+    .paymentmethods {
+        width: 100px;
+    }
+
+  
+    #searchBox {
+        width: 200px;
+        transition: width 0.5s ease-out;
+    }
+
+    #searchBox:focus {
+        width: 100%;
+    }
+}
+
+@media(max-width:576px) {
+    .sitelogo {
+        width: 100px;
+        position: absolute;
+        top: auto;
+        object-fit: cover;
+        max-width: 100%;
+    }
+
+    .mostsold {
+        width: 100px;
+    }
+
+    .introheader {
+        font-size: 7vw;
+    }
+
+    .sitelogo {
+        width: 50px;
+    }
+
+    .intropara {
+        font-size: 4vw;
+        color: rgba(255, 255, 255, 0.616);
+    }
+
+    .introlist {
+        list-style-type: none;
+    }
+
+    .liintrolist {
+        font-size: 4vw;
+        font-weight: lighter;
+        color: rgba(255, 255, 255, 0.616);
+    }
+
+    .checksamplebutton {
+        border: none;
+        background: rgb(0, 216, 144);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 4vw;
+        padding: 2%;
+        transition: background-color 1s ease-out;
+    }
+
+    .paymentmethods {
+        width: 50px;
+    }
+
+    .sampleheading {
+        font-family: 'maintheme';
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    #searchBox {
+        width: 150px;
+        transition: width 0.5s ease-out;
+    }
+
+    #searchBox:focus {
+        width: 100%;
+    }
+}
+
+.nextButton {
+    border: none;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-weight: bolder;
+    padding: 2%;
+    border-radius: 1%;
+}
+
+.bg-danger {
+    background-color: aqua;
+}
+
+.sampleDetailsBox-Name {
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+}
+
+.sampleDetailsBox {
+    font-size: 1rem;
+
+}

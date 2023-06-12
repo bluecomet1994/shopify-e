@@ -1,0 +1,64 @@
+input,
+button {
+    padding: 5px;
+}
+
+.warningInfoDiv {
+
+
+   
+    font-size: 25px;
+    /* -webkit-animation: 'appear';
+    -webkit-animation-duration: 2s; */
+}
+
+
+
+
+.accept-btn {
+    background-color: white;
+    font-weight: bold;
+}
+
+.accept-btn:hover {
+
+    font-weight: bold;
+    animation: 'example';
+    animation-duration: 4s;
+}
+
+.mybtn {
+    background-color: blue;
+    position: relative;
+    animation: 'appear';
+    /* -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite; */
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+@keyframes appear {
+    from {
+        top: -200px;
+    }
+
+    to {
+        top: 100px;
+    }
+}

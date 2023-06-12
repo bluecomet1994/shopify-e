@@ -1,0 +1,249 @@
+.black {
+    background-color: black;
+  }
+  
+  .maincolor {
+    color: white;
+  }
+  .sitelogo {
+    margin-left: 5%;
+  }
+  .singlecontentdiv {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .thesingleproductcontentdiv {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    min-height: 100vh;
+  }
+  
+  .sampleheaddiv {
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+  }
+  
+  .sampledescription {
+    font-weight: lighter;
+  }
+  
+  #borderLeft {
+    width: 100%;
+    border-bottom: 2px solid white;
+    right: 0%;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button {  
+  
+     opacity: 1;
+  
+  }
+  .sampleImageDiv {
+    /* border: 1px solid rgb(58, 58, 58); */
+    margin-left: 5%;
+    border-radius: 2%;
+    background-color: #0e0e0e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: inset 0px 0px 23px 5px #47474786; */
+  }
+  .sampleImage {
+    width: 500px;
+    max-width: 100%;
+    object-fit: cover;
+    background-color: rgb(41, 41, 41);
+  }
+  .sampleInfoDIV {
+    /* border: 1px solid rgb(58, 58, 58); */
+    margin-left: 5%;
+    border-radius: 2%;
+  
+    /* box-shadow: inset 0px 0px 23px 5px #47474786;*/
+  }
+  @media (max-width: 900px) {
+    .sampleImage {
+      width: 300px;
+      max-width: 100%;
+    }
+    .sampleImageDiv {
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 2%;
+    }
+    .sampleInfoDIV {
+      /* border: 1px solid rgb(58, 58, 58); */
+      margin-left: 0%;
+      border-radius: 2%;
+  
+      /* box-shadow: inset 0px 0px 23px 5px #47474786;*/
+    }
+  }
+  
+  .buyButton,
+  .cartButton {
+    border: solid 2px #474747;
+    padding: 5%;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 2vw;
+    border-radius: 2%;
+  }
+  
+  .buyButton {
+    background-color: rgb(121, 4, 0);
+    transition: background-color 0.5s ease-in-out;
+    transition: color 0.5s ease-in;
+  }
+  
+  .buyButton:hover {
+    background-color: rgb(0, 174, 255);
+    color: black;
+  }
+  
+  .cartButton {
+    background-color: rgb(5, 177, 76);
+    color: black;
+    transition: background-color 0.5s ease-in-out;
+    transition: color 0.5s ease-in;
+  }
+  
+  .cartButton:hover {
+    background-color: rgb(0, 174, 255);
+    color: black;
+  }
+  
+  .thefooterdiv {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  
+  .cardinfo {
+    font-size: 40px;
+  }
+  
+  .paymentmethods {
+    width: 50px;
+  }
+  .checkOutBag{
+    position: relative;
+  }
+  .cartItems{
+    font-style: normal;
+    position: absolute;
+    padding: 10%;
+    width: auto;
+    padding-bottom: 25%;
+    top: 3%;
+    right: -65%;
+    color: orange;
+    font-weight: bolder;
+   
+    background-color: rgb(255, 0, 43);
+    
+  }
+  @media (max-width: 576px) {
+    .sampleImage {
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      max-width: 100%;
+    }
+    .sampleImageDiv {
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 2%;
+      background-color: #0e0e0e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .sampleheaddiv {
+      position: relative;
+      font-size: 40px;
+      letter-spacing: 10px;
+      font-weight: bolder;
+      margin-left: 0%;
+    }
+    .buyButton,
+    .cartButton {
+      font-size: 4vw;
+    }
+  }
+  .cartRowSampleImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cartRowSampleImage img{
+    height: 60px;
+  }
+  .cartRowsIndi{
+    background-color: #0f0f0fd2;
+  }
+  .cartRowInput input{
+    color: black;
+    font-weight: bold;
+  }
+  .cartRowSampleQty label{
+    background-color: black;
+    
+  }
+  .cartRowSampleQty img{
+    height: 15px;
+  }
+  .cartRowPriceDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cartRowInputDiv,.cartAmountPriceDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cartRowInputDiv input{
+    width: 100px;
+    outline: none;
+  }
+  @media(max-width:576px){
+    .cartRowSampleQty img{
+      height: 8px;
+    }.cartRowSampleImage img{
+      width: 70px;
+      max-width: 100%;
+    }
+  }
+  .upArrowIconDiv{
+    position: absolute;
+    background-color: rgb(240, 0, 40);
+    top: 0;
+    z-index: 4;
+  }
+  .downArrowIconDiv{
+    position: absolute;
+    bottom: 0;
+    background-color: pink;
+    z-index: 1;
+  }
+  .upArrowIconDiv img,.downArrowIconDiv img{
+  
+    
+  }
+  .checkOutButton{
+    background-color: #b70a0a;
+    transition: background-color 0.1s linear;
+    
+  }
+  .checkOutButton:hover{
+    background-color: #e60000;
+    
+  }
+  .checkOutDescription{
+    font-size: 0.8rem;
+  }

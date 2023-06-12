@@ -1,0 +1,32 @@
+{
+    "paths": [
+        {
+            "path_name": "add_to_cart_local_storage",
+            "actual_path": "/sampleSelling-master/view_cart/process/add_to_cart_local_storage.php"
+        },
+        {
+            "path_name": "add_to_customer_cart",
+            "actual_path": "/sampleSelling-master/view_cart/process/add_to_customer_cart.php"
+        },
+        {
+            "path_name": "cart_edit",
+            "actual_path": "/sampleSelling-master/view_cart/process/cart_edit.php"
+        },
+        {
+            "path_name": "get_customer_cart",
+            "actual_path": "/sampleSelling-master/view_cart/process/get_customer_cart.php"
+        },
+        {
+            "path_name": "get_sub_total",
+            "actual_path": "/sampleSelling-master/view_cart/process/get_sub_total.php"
+        },
+        {
+            "path_name": "remove_from_customer_cart",
+            "actual_path": "/sampleSelling-master/view_cart/process/remove_from_customer_cart.php"
+        },
+        {
+            "path_name": "show_cart_rows",
+            "actual_path": "/sampleSelling-master/view_cart/process/show_cart_rows.php"
+        }
+    ]
+}

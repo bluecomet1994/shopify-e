@@ -1,0 +1,481 @@
+@font-face {
+    font-family: "maintheme";
+    src: url("../resources/fonts/Mohave-VariableFont_wght.ttf")
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    /* don't use '0px' or any other unit, if you set the value to zero */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-family: "maintheme";
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbardiv {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background-color: black;
+}
+.navbardiv2 {
+
+    background-color: black;
+}
+.navbarmaindiv {
+    position: absolute;
+}
+
+.sitelogo {
+    width: 100px;
+    position: absolute;
+    top: 0%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.navlinks {
+    color: white;
+    font-family: "maintheme";
+    background: none;
+}
+
+.navlinksdiv:hover .navlinks {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.navlinksdiv:hover {
+    border-bottom: white 1px solid;
+}
+
+.bag2:hover {
+    transform: scale(2);
+}
+
+
+.therelativediv {
+    position: relative;
+}
+
+.sampleheading {
+    font-family: 'Vermin';
+    font-size: 1.5rem;
+}
+
+.HRTAG {
+    border: 0.03rem solid rgb(255, 255, 255);
+}
+
+.selectTAG {
+    background-color: black;
+    color: white;
+    border: 0.02rem solid rgb(255, 255, 255);
+}
+
+.thecontentdiv {
+    font-family: 'Vermin';
+}
+
+.beatpackdiv {
+    background-color: rgb(17, 17, 17);
+}
+
+.beatPACKIMAGE {
+    width: 500px;
+    max-width: 100%;
+    object-fit: contain;
+}
+/* 
+.beatPACKIMAGE:hover {} */
+
+@keyframes rotateBeatPackImage {
+    to {
+        transform: rotate3d(0);
+    }
+    from {
+        transform: rotate3d(1, 5, 1, 360deg);
+    }
+}
+
+.cartBTN {
+    background-color: rgba(255, 255, 0, 0.664);
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 0.035rem;
+}
+
+.buyBTN {
+    background-color: rgba(177, 13, 13, 0.507);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 0.035rem;
+}
+
+.buyBTN:hover {
+    background-color: rgb(177, 13, 13);
+}
+
+.cartBTN:hover {
+    background-color: rgb(255, 255, 0);
+}
+
+.sampleName {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.sampleName:hover {
+    font-weight: bolder;
+}
+
+.appear {
+    animation: rag 2s 1;
+    animation-fill-mode: both;
+}
+
+@keyframes rag {
+    from {
+        margin-top: -10%;
+        opacity: 0;
+    }
+    to {
+        margin-top: 0%;
+        opacity: 1;
+    }
+}
+
+
+
+/* .navbuttons {} */
+
+
+
+
+.homediv1 {
+    position: relative;
+    z-index: -1;
+}
+
+.homevideodiv {
+    
+    position: relative;
+    justify-content: center;
+    padding: 0rem;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.493);
+    background-color: rgba(255, 0, 0, 0);
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+/* .wrapper1 {
+    position: relative;
+    isolation: isolate;
+    min-height: 50vh;
+    padding: 0rem;
+} */
+
+.back1 {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0);
+    /* padding-top: 40px; */
+}
+
+.homevideo {
+    width: 100%;
+    
+    position: absolute; 
+     object-fit: cover;
+}
+
+.back__element1,
+.homevideo {
+    width: 100%;
+    height: calc(100% / 1 + 1px);
+    object-fit: cover;
+    margin: -0.5px;
+    padding: 0;
+    z-index: -1;
+}
+
+.front1 {
+    overflow-x: hidden;
+    background: none;
+    border-radius: 0rem;
+    padding: 0rem;
+}
+
+.introdiv {
+    padding: 2%;
+    text-transform: uppercase;
+    border-radius: 0;
+    position: absolute;
+    bottom: 05%;
+    overflow-y: hidden;
+}
+
+.introdiv2 {
+    padding: 2%;
+    text-transform: uppercase;
+    border-radius: 0;
+    position: absolute;
+    bottom: -100%;
+    overflow-y: hidden;
+}
+
+.makeAbsolute {
+    margin-top: -200%;
+    left: 0%;
+    background-color: rgba(44, 43, 43, 0.459);
+}
+
+.makeAnimation {
+    display: block;
+    animation: ragappear normal ease-out forwards;
+    animation-delay: 0s;
+    animation-duration: 1s;
+}
+
+@keyframes ragappear {
+    from {
+        margin-top: -200%;
+    }
+    to {
+        margin-top: 00%;
+    }
+}
+
+.deshead {
+    font-size: 5vw;
+    font-weight: bolder;
+}
+
+.des {
+    font-size: 4.0vw;
+    font-weight: bolder;
+}
+
+.secondlogoimage {
+    width: 35vw;
+}
+
+.ragnormal {
+    width: 200px;
+}
+
+@media(max-width:576px) {
+    .secondlogoimage {
+        width: 200px;
+    }
+    .des {
+        font-size: 5vw;
+    }
+}
+
+/* .therollercontentdiv {} */
+
+.cardinfo {
+    font-size: 30px;
+}
+
+.bigintodiv {
+    /* margin-top: 100%; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.introheader {
+    font-size: 4vw;
+}
+
+.intropara {
+    font-size: 1.4vw;
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.introlist {
+    list-style-type: none;
+}
+
+.liintrolist {
+    font-size: 1.4vw;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.checksamplebutton {
+    border: none;
+    background: rgb(0, 216, 144);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 2vw;
+    padding: 1%;
+    transition: background-color 1s ease-out;
+}
+
+.checksamplebutton:hover {
+    background-color: rgb(0, 51, 117);
+    color: rgb(0, 0, 0);
+}
+
+.sociallinkholdingdiv {
+    position: absolute;
+    bottom: 2%;
+}
+
+.sociallinks {
+    cursor: pointer;
+}
+
+.paymentmethods {
+    width: 40px;
+    max-width: 100%;
+}
+
+@media(max-width:992px) {
+    .introheader {
+        font-size: 5vw;
+    }
+    .intropara {
+        font-size: 3vw;
+    }
+    .introlist {
+        list-style-type: none;
+    }
+    .liintrolist {
+        font-size: 3vw;
+    }
+    .checksamplebutton {
+        border: none;
+        background: rgb(0, 216, 144);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 3vw;
+        padding: 1%;
+        transition: background-color 1s ease-out;
+    }
+    .paymentmethods {
+        width: 100px;
+    }
+}
+
+@media(max-width:768px) {
+ 
+    .introheader {
+        font-size: 6vw;
+    }
+    .intropara {
+        font-size: 3vw;
+    }
+    .introlist {
+        list-style-type: none;
+    }
+    .liintrolist {
+        font-size: 3vw;
+    }
+    .checksamplebutton {
+        border: none;
+        background: rgb(0, 216, 144);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 4vw;
+        padding: 1%;
+        transition: background-color 1s ease-out;
+    }
+    .paymentmethods {
+        width: 100px;
+    }
+}
+
+@media(max-width:576px) {
+    .sitelogo {
+        width: 100px;
+        position: absolute;
+        top: auto;
+        object-fit: cover;
+        max-width: 100%;
+    }
+    .mostsold {
+        width: 400px;
+    }
+    .introheader {
+        font-size: 7vw;
+    }
+    .sitelogo {
+        width: 50px;
+    }
+    .intropara {
+        font-size: 4vw;
+        color: rgba(255, 255, 255, 0.616);
+    }
+    .introlist {
+        list-style-type: none;
+    }
+    .liintrolist {
+        font-size: 4vw;
+        font-weight: lighter;
+        color: rgba(255, 255, 255, 0.616);
+    }
+    .checksamplebutton {
+        border: none;
+        background: rgb(0, 216, 144);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 4vw;
+        padding: 2%;
+        transition: background-color 1s ease-out;
+    }
+    .paymentmethods {
+        width: 50px;
+    }
+}
+
+.nextButton {
+    border: none;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-weight: bolder;
+    padding: 2%;
+    border-radius: 1%;
+}
+.ragNavbarDiv{
+    display: flex;
+    flex-direction: row;
+}
+.ragNavBarDivLogo img{
+    width: 200px;
+    max-width: 100%;
+}
+.ragNavbar{
+    border-bottom: 1px solid white;
+}
+.ragNavBarNavMainLinksDiv{
+    display: flex;
+    flex-direction: row;
+   
+}
+.ragNavBarNavMainLinksDiv div{
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}

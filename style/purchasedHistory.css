@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "maintheme";
+    src: url("../resources/fonts/Mohave-VariableFont_wght.ttf")
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    /* don't use '0px' or any other unit, if you set the value to zero */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-family: "maintheme";
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.darkBlack {
+    background-color: rgb(17, 17, 17);
+}
+
+.black {
+    background-color: rgb(0, 0, 0);
+}
+
+.nextButton {
+    border: none;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-weight: bolder;
+    padding: 2%;
+    border-radius: 1%;
+}
+
+.tableDark {
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+.purchasetable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.purchasetable td,
+.purchasetable th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 6px;
+}
+
+.purchasetable tr {
+    background-color: #000000;
+}
+
+.purchasetable tr:hover {
+    background-color: rgb(53, 53, 53);
+}
+
+.purchasetable th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: #020202;
+    color: white;
+}
+
+.nextButton {
+    border: none;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-weight: bolder;
+    padding: 2%;
+    border-radius: 1%;
+    background-color: black;
+    color: white;
+    border: white 1px solid;
+}

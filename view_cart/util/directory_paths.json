@@ -1,0 +1,33 @@
+{
+    "paths": [
+        {
+            "directory_name": "audio_sample_zip_file",
+            "actual_path": "/sampleSelling-master/products/samples/zip/"
+        },
+        {
+            "directory_name": "audio_sample_image",
+            "actual_path": "/sampleSelling-master/products/samples/image/"
+        },
+        {
+            "directory_name": "audio_sample_audio",
+            "actual_path": "/sampleSelling-master/products/samples/audio/"
+        },
+        {
+            "directory_name": "midi_sample_zip_file",
+            "actual_path": "/sampleSelling-master/products/midi/zip/"
+        },
+        {
+            "directory_name": "midi_sample_image",
+            "actual_path": "/sampleSelling-master/products/midi/image/"
+        },
+   
+        {
+            "directory_name": "style",
+            "actual_path": "/sampleSelling-master/style/"
+        },
+        {
+            "directory_name": "resources",
+            "actual_path": "/sampleSelling-master/resources/"
+        }
+    ]
+}
